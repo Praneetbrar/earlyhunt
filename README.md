@@ -32,7 +32,7 @@ EarlyHunt is the premier AI-powered launch platform where early adopters discove
 ### 💰 **Flexible Pricing**
 - **Free Launch**: $0 - Perfect for testing the waters
 - **Nofollow Launch**: $0 - No requirements, no badge needed
-- **Premium Launch**: $10 one-time - Guaranteed dofollow backlinks immediately
+- **Premium Launch**: $19 one-time - Guaranteed dofollow backlinks immediately
 
 ### 🚀 **Easy Launch Process**
 - **AI Autofill**: Automatically extracts project info from your website
@@ -75,7 +75,7 @@ EarlyHunt is the premier AI-powered launch platform where early adopters discove
 ---
 
 ### 👑 **Premium Launch**
-**$10 one-time - Maximum impact**
+**$19 one-time - Maximum impact**
 
 ✅ Live on homepage for 7 days  
 ✅ **Guaranteed dofollow backlink** (immediate SEO boost)  
@@ -168,7 +168,7 @@ Every week, EarlyHunt runs a competition where projects compete for votes and re
 ### Step 3: Complete Requirements
 - **Free Launch**: Add EarlyHunt link to your website (any link works)
 - **Nofollow Launch**: No requirements needed
-- **Premium Launch**: Complete $10 payment
+- **Premium Launch**: Complete $19 payment
 
 ### Step 4: Launch & Compete
 - Your project goes live on Monday 8:00 AM UTC
@@ -197,7 +197,7 @@ A: Project name, website URL, description, categories, logo, and launch week. Ou
 A: 
 - **Free**: $0, badge required, nofollow by default (dofollow if you win)
 - **Nofollow**: $0, no badge required, always nofollow
-- **Premium**: $10, no badge required, guaranteed dofollow immediately
+- **Premium**: $19, no badge required, guaranteed dofollow immediately
 
 **Q: Can I change my launch type after submission?**  
 A: Yes, but only before your project is scheduled. Once approved and scheduled, you cannot change the launch type.
@@ -232,7 +232,7 @@ A: Add any link to earlyhunt.com on your website (footer, about page, etc.). Our
 ### Payment & Premium
 
 **Q: How does Premium launch payment work?**  
-A: Select "Premium Launch" during submission, complete the $10 payment through our secure payment processor (Polar), and your project is automatically scheduled.
+A: Select "Premium Launch" during submission, complete the $19 payment through our secure payment processor (Polar), and your project is automatically scheduled.
 
 **Q: What payment methods do you accept?**  
 A: All major credit cards (Visa, Mastercard, American Express) through Polar. Payments are secure, encrypted, and PCI-compliant.
@@ -320,3 +320,17 @@ EarlyHunt is more than a launch platform—it's a community of builders, innovat
 
 *EarlyHunt - Where early adopters discover the next big thing.*  
 *© 2024 EarlyHunt. All rights reserved.*
+
+---
+
+## Development
+
+The Launch Directory Finder lives at `/tools/launch-directory-finder`. Directory rows are static data in `src/data/launch-directories.json`.
+
+```bash
+npm ci
+npm test
+npm run lint
+npm run build
+npm run dev
+```
